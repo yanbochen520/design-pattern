@@ -8,6 +8,10 @@ import java.util.List;
  * @Author: ybchen
  * @Date: 2023/5/31 14:08
  */
+
+/**
+ * 实际的被观察者
+ */
 public class WeatherData implements Subject {
     private List<Observer> observers;
     private float temperature;

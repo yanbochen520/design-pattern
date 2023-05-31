@@ -4,6 +4,10 @@ package org.ybchen1.observer;
  * @Author: ybchen
  * @Date: 2023/5/31 14:39
  */
+
+/**
+ * 客户端；供测试使用
+ */
 public class Client {
 
     public static void main(String[] args) {
