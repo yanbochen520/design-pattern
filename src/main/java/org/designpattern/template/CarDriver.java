@@ -5,6 +5,7 @@ package org.designpattern.template;
  * @Date: 2023/6/25 14:25
  */
 public abstract class CarDriver {
+    //可以设置一个钩子函数
 
     public abstract void start();
 

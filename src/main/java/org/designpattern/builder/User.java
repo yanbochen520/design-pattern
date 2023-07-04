@@ -55,6 +55,12 @@ public class User {
             this.firstName = firstName;
             this.lastName = lastName;
         }
+
+        /**
+         * 此处为了链式调用必须返回this对象
+         * @param age
+         * @return
+         */
         public UserBuilder age(int age) {
             this.age = age;
             return this;
